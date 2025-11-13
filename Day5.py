@@ -18,3 +18,29 @@ print(5 ** 3)
 
 # It gives you the remainder after dividing one number by another.
 print(8 % 2) 
+
+
+
+
+
+
+
+
+
+
+# ==========================
+# Simple Calculator
+# ==========================
+
+
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print(f"Addition: {a + b}")
+print(f"Subtraction: {a - b}")
+print(f"Multiplication: {a * b}")
+print(f"Division: {a / b}")
+print(f"Floor Division: {a // b}")
+print(f"Exponentiation: {a ** b}")
+print(f"Modulus: {a % b}")
