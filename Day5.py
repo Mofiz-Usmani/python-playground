@@ -14,3 +14,7 @@ print(9 // 3) # Output: 3
 
 # In Python, ** means exponentiation — or simply, “raise to the power of.”
 print(5 ** 3)
+
+
+# It gives you the remainder after dividing one number by another.
+print(8 % 2) 
