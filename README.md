@@ -1,12 +1,12 @@
-🐍 Python Learning Journey 🚀
+🐍 PYTHON LEARNING JOURNEY 🚀
 
 Welcome to my Python Learning Repository — a space where I’m documenting my journey of learning Python from basics to advanced, following the amazing CodeWithHarry Python Playlist
 .
 
 Here, I practice exercises, explore concepts, and build small projects to strengthen my Python foundation — with the ultimate goal of integrating Python into AI-powered full-stack applications.
 
-📚 Topics Covered
-🧠 Core Python
+📚 TOPICS COVERED
+🧠 CORE PYTHON
 
 Variables, Data Types, Input/Output, Operators
 
@@ -18,7 +18,7 @@ Object-Oriented Programming (OOP)
 
 File Handling (Read/Write Operations)
 
-⚙️ Advanced Python
+⚙️ ADVANCED PYTHON
 
 List Comprehensions
 
@@ -28,38 +28,38 @@ Error Handling
 
 Virtual Environments and Package Management
 
-📊 Python Libraries
+📊 PYTHON LIBRARIES
 
-NumPy – Numerical computing
+NumPy – Numerical Computing
 
-Pandas – Data manipulation and analysis
+Pandas – Data Manipulation and Analysis
 
-Matplotlib – Data visualization
+Matplotlib – Data Visualization
 
-💻 Mini Projects & Practice
+💻 MINI PROJECTS & PRACTICE
 
-Beginner-friendly coding exercises
+Beginner-Friendly Coding Exercises
 
-Logic-building and problem-solving
+Logic Building and Problem Solving
 
-Hands-on small projects to reinforce concepts
+Small Hands-on Projects to Reinforce Concepts
 
-🎯 Goals
+🎯 GOALS
 
-✅ Learn Python from basics to advanced
-✅ Practice coding challenges regularly
-✅ Build practical projects to apply concepts
-✅ Prepare for AI, ML, and Full-Stack integration using Python
+✅ Learn Python from Basics to Advanced
+✅ Practice Coding Challenges Regularly
+✅ Build Practical Projects to Apply Concepts
+✅ Prepare for AI, ML, and Full-Stack Integration using Python
 
-🔗 References
+🔗 REFERENCES
 
 📺 CodeWithHarry Python Playlist
 
 📘 Official Python Documentation
 
-⚡ Contributions
+⚡ CONTRIBUTIONS
 
 This is a personal learning repository, but contributions are always welcome!
 If you’d like to suggest improvements, share exercises, or contribute ideas — feel free to open a pull request or issue. 💡
 
-✨ Learning never stops — keep coding, keep growing! 🧑‍💻
+✨ Learning Never Stops — Keep Coding, Keep Growing! 🧑‍💻
