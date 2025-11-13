@@ -40,6 +40,17 @@ print(h)
 print(type(h)) #Output: <class 'set'>
 
 
+i = None
+print(i)
+print(type(i)) #Output: <class 'NoneType'>
+
+
+# used to represent complex numbers like 2 + 3j to use in mathematical calculations
+j = complex(2, 3)
+print(j)
+print(type(j)) #Output: <class 'complex'>
+
+
 # ==========================
 # Type Conversion
 # ==========================
