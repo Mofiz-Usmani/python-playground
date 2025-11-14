@@ -82,3 +82,7 @@ print(z.replace("Jackal", "Python"))
 print("hi hello hey".split())   # ["hi", "hello", "hey"])
 
 
+
+
+# join - 
+print("-".join(["a","b","c"]))   # "a-b-c"
