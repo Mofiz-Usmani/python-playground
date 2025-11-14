@@ -81,9 +81,14 @@ print(a, b, c)    #Output : 100 100 100
 
 
 # Assigning Different Values
-# We can assign different values to multiple variables simultaneously, making the code concise and easier to read.
+# We can assign different values to multiple variables simultaneously, making the-
+# code concise and easier to read.
 
 x, y, z = 1, 2.5, "Python"
-print(x, y, z)
+print(x, y, z)    #Output : 1 2.5 Python
+
+
+
+
 
 
