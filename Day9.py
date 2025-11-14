@@ -86,3 +86,10 @@ print("hi hello hey".split())   # ["hi", "hello", "hey"])
 
 # join - 
 print("-".join(["a","b","c"]))   # "a-b-c"
+
+
+
+
+# find() - 
+g = "Hello"
+print(g.find("e"))
