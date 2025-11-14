@@ -28,3 +28,20 @@ B = input("Enter second number: ")
 print(int(A) + int(B))  # Convert inputs to integers and add
 print(float(A) + float(B))  # Convert inputs to floats and add
 
+
+
+
+
+# Take Multiple Input in Python
+
+x, y = input("Enter two values: ").split()
+print("Number of boys: ", x)
+print("Number of girls: ", y)
+
+
+
+
+x, y, z = input("Enter three values: ").split()
+print("Total number of students: ", x)
+print("Number of boys is : ", y)
+print("Number of girls is : ", z)
