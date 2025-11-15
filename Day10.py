@@ -51,3 +51,17 @@ country = "India"
 if age >= 18:
     if country == "India":
         print("You can vote in India")
+
+
+
+
+
+
+
+
+# Short IF (Ternary Operator)
+age = 16
+
+message = "Adult" if age >= 18 else "Minor"
+
+print(message)
