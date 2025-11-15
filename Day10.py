@@ -110,3 +110,24 @@ elif hour >= 17 and hour < 21:
 else:
     print("Good Night!")
 
+
+
+
+
+
+
+
+# match–case is like switch-case in other languages.
+# It is used when you want to check many conditions in a cleaner way-
+# instead of writing many if–elif–else
+month = int(input("Enter the Month number(1-12): "))
+
+match month: 
+    case 12 | 1 | 2 :
+        print("Winter")
+    case 3 | 4 | 5:
+        print("Spring") 
+    case 6 | 7 | 8:
+        print("Summer")
+    case 9 | 10 | 11:
+        print("Autumn")
