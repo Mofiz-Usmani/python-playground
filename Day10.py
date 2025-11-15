@@ -65,3 +65,24 @@ age = 16
 message = "Adult" if age >= 18 else "Minor"
 
 print(message)
+
+
+
+
+
+
+
+
+
+
+# Complex Even-Odd Conditions
+n = int(input("Enter a number: "))
+
+if(n%2 == 0 and n%6 == 0):
+    print("Super Even")
+elif(n%2 == 0 and n%6 != 0):
+    print("Normal Even")
+elif(n%2 != 0 and n%5 == 0):
+    print("Special Odd")
+else:
+    print("Normal Odd")
