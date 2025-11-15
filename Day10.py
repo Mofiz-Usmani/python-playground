@@ -131,3 +131,22 @@ match month:
         print("Summer")
     case 9 | 10 | 11:
         print("Autumn")
+
+
+
+
+
+
+
+
+marks = int(input("Enter your marks: "))
+
+match marks:
+    case m if m >= 90:
+        print("Grade A")
+    case m if m >= 75:
+        print("Grade B")
+    case m if m >= 50:
+        print("Grade C")
+    case _:
+        print("Fail")
