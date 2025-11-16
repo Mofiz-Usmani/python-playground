@@ -52,9 +52,21 @@ while i <= 5:
 
 
 
-i = int(input("Enter the number: "))
+# i = int(input("Enter the number: "))
 
-while (i<=10) :
-    i = int(input("Enter the number: "))
-    print(i)
+# while (i<=10) :
+#     i = int(input("Enter the number: "))
+#     print(i)
 
+# print("Done with the loop")
+
+
+
+
+
+
+count = 5
+
+while (count>=0) :
+    print(count)
+    count -= 1
