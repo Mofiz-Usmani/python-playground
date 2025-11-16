@@ -149,6 +149,13 @@ while i <= 5:
 
 
 
+for i in range(1, 13) : 
+    if i == 11:
+        break
+    print("5 X",i, "=", 5 * i)
+
+
+
 
 # Continue = Skip that iteration & jump to next round of loop
 # It does not stop the loop.
