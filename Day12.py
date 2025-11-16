@@ -3,6 +3,14 @@
 # =====================
 
 
+# When to use while loop
+
+# Use while loop when:
+# ✔ You don’t know how many times the loop should run
+# ✔ You want to repeat until a condition becomes False
+# ✔ Taking continuous user input
+# ✔ Waiting for something to happen
+
 
 
 
