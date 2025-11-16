@@ -48,3 +48,32 @@ for i in range(1, 6):
 
 print("Sum =", total)
 
+
+
+
+
+
+
+# Example 5: Nested for loop
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, j)
+
+
+
+
+
+
+
+# step → how much to increase or decrease each time
+# step is optional → default is 1.
+
+for i in range(0, 10, 2):     #Count 0 to 9 with step 2
+    print(i, end=" ")  
+
+
+
+
+# Count backwards using negative step
+for i in range(10, 0, -1):
+    print(i, end=" ")
