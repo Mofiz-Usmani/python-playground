@@ -153,7 +153,25 @@ for i in range(1, 13) :
     if i == 11:
         break
     print("5 X",i, "=", 5 * i)
+    
 
+
+
+
+
+
+
+n = 5
+num = int(input("Guess the number btwn (1-10): "))
+
+while True : 
+    if n == num :
+        print("Right Guess")
+        break
+    else:
+        num = int(input("Wrong!!! Guess Again: "))
+
+print("Game Finished")
 
 
 
