@@ -1,0 +1,1 @@
+1) if written multiple return statement inside a funtion then only the first statement executes rest does nto executes
