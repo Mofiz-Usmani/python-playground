@@ -44,3 +44,5 @@ fruits = ["apple", "banana", "cherry"]
 
 print("First element:", fruits[0])   # Index 0
 print("Last element:", fruits[-1])   # Negative index
+# or
+print("Last element:", fruits[len(fruits)-1])  
