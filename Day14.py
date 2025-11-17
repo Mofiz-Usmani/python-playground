@@ -31,3 +31,16 @@ print("Fruits:", fruits)
 # Mixed data types
 mix = [1, "hello", 3.5, True]
 print("Mixed list:", mix)
+
+
+
+
+
+
+# ---------------------
+# 2. Accessing Elements
+# ---------------------
+fruits = ["apple", "banana", "cherry"]
+
+print("First element:", fruits[0])   # Index 0
+print("Last element:", fruits[-1])   # Negative index
