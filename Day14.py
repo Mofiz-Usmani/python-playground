@@ -140,3 +140,31 @@ print("List : ",lst)
 
 lst = [i*i for i in range(10) if i%2==0]
 print(lst)
+
+
+
+
+
+
+
+
+
+
+
+
+# --------------
+# List Methods
+# --------------
+
+# Adding Elements
+
+fruits = ["apple", "banana"]
+
+fruits.append("cherry")      # Add at end
+print("After append:", fruits)
+
+fruits.insert(1, "orange")   # Add at specific position
+print("After insert:", fruits)
+
+fruits.extend(["kiwi", "mango"])  # Add multiple elements
+print("After extend:", fruits)
