@@ -128,3 +128,15 @@ print(squares)   # Output: [0, 1, 4, 9, 16]
 # With list comprehension
 squares = [i**2 for i in range(5)]
 print(squares)   # Output: [0, 1, 4, 9, 16]
+
+
+
+
+
+lst = [i*i for i in range(10)]
+print("List : ",lst)
+
+
+
+lst = [i*i for i in range(10) if i%2==0]
+print(lst)
