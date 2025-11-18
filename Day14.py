@@ -168,3 +168,25 @@ print("After insert:", fruits)
 
 fruits.extend(["kiwi", "mango"])  # Add multiple elements
 print("After extend:", fruits)
+
+
+
+
+
+
+# Removing Elements
+
+fruits = ["apple", "banana", "cherry", "banana"]
+
+fruits.remove("banana")      # Remove first occurrence
+print("After remove:", fruits)
+
+popped_item = fruits.pop()   # Remove last element and return it
+print("Popped item:", popped_item)
+print("After pop:", fruits)
+
+del fruits[0]                # Remove by index
+print("After del:", fruits)
+
+fruits.clear()               # Remove all elements
+print("After clear:", fruits)
