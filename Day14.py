@@ -233,3 +233,13 @@ print("Index of 5:", numbers.index(5))  # First occurrence
 
 print("Count of 5:", numbers.count(5))  # Number of occurrences
 
+
+
+
+
+lis = [1, 2, 3, 4, 5, 6]
+lis.reverse()
+print("Reverse Order:", lis)
+
+
+
