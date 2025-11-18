@@ -243,3 +243,32 @@ print("Reverse Order:", lis)
 
 
 
+
+
+
+
+# copy() Method in Python (List Copy)
+
+lis = [1, 2, 3]
+
+new_lis = lis.copy()
+
+print(lis)       # [1, 2, 3]
+print(new_lis)   # [1, 2, 3]
+
+
+
+
+
+
+# Proof that copy() creates a NEW list
+
+lis = [1, 2, 3]
+new_lis = lis.copy()
+
+new_lis.append(99)
+
+print(lis)       # [1, 2, 3]
+print(new_lis)   # [1, 2, 3, 99]
+
+
