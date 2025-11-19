@@ -47,6 +47,9 @@ if True in tup:
 
 
 
+
+
+
 # Accessing tuple elements
 # Same like lists, using indexing:
 
@@ -89,3 +92,23 @@ print(t.count(2))   # 2
 # ✔ index() → Gives first index of an element
 t = (10, 20, 30, 20)
 print(t.index(20))   # 1
+
+
+
+
+
+
+
+
+# Tuple Packing & Unpacking
+
+# ✔ Packing
+t = ("Eddie", 21, "India")
+
+
+
+# ✔ Unpacking
+name, age, country = t
+print(name)
+print(age)
+print(country)
