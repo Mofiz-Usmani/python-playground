@@ -200,7 +200,10 @@ while True :
 
     if (ans == answers[i]) :
         print("Right Answer")
-        break
+        i = i + 1
+        ans = input("Enter the correct answer")
     else : 
         print("Wrong Answers!!!")
         break
+
+    
