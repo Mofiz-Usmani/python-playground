@@ -58,3 +58,23 @@ print(t[-1])  # mango
 
 nums = (10, 20, 30, 40, 50)
 print(nums[1:4])   # (20, 30, 40)
+
+
+
+
+
+
+
+# Tuple Methods
+# Only 2 methods exist because tuple is fixed:
+
+# ✔ count() → Counts how many times an element appears
+t = (1, 2, 2, 3)
+print(t.count(2))   # 2
+
+
+
+
+# ✔ index() → Gives first index of an element
+t = (10, 20, 30, 20)
+print(t.index(20))   # 1
