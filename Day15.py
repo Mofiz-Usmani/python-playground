@@ -152,3 +152,20 @@ temp[2] = "Finland"
 countries = tuple(temp)
 
 print(countries)
+
+
+
+
+
+
+
+
+
+
+countriess = ("Pakistan", "Afganistan", "Bangladesh", "ShriLanka")
+
+countries2 = ("Vietnam", "India", "China")
+
+southAsia = countriess + countries2
+
+print(southAsia)
