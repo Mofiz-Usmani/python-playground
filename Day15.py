@@ -201,6 +201,7 @@ while True :
     if (ans == answers[i]) :
         print("Right Answer")
         i = i + 1
+        print(questions[i])
         ans = input("Enter the correct answer")
     else : 
         print("Wrong Answers!!!")
