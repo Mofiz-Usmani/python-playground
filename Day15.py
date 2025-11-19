@@ -42,3 +42,19 @@ print(type(t))
 t = ("apple", "banana", "mango")
 print(t[0])   # apple
 print(t[2])   # mango
+print(t[-1])  # mango
+
+
+
+
+
+
+
+
+
+
+# Tuple Slicing
+# You can slice it just like a list:
+
+nums = (10, 20, 30, 40, 50)
+print(nums[1:4])   # (20, 30, 40)
