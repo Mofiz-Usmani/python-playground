@@ -412,11 +412,25 @@ print("Hi" * 3)  # HiHiHi
 
 
 
-def add(a, b):
-    """This function adds two numbers and returns the result."""
-    return a + b
+# def add(a, b):
+#     """This function adds two numbers and returns the result."""
+#     return a + b
 
-help(add)   # Output: add(a, b)
-    # This function adds two numbers and returns the result.
+# help(add)   # Output: add(a, b)
+#     # This function adds two numbers and returns the result.
 
-print(add(4,6))
+# print(add(4,6))
+
+
+
+
+
+
+
+
+def square(n):
+    '''Takes in a number n, returns the 
+    square of n'''
+    print(n**2)
+
+square(5)
