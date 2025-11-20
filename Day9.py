@@ -386,3 +386,37 @@ print(a + b)  # HelloWorld
 
 # Repeat strings multiple times
 print("Hi" * 3)  # HiHiHi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# =====================
+# DocStrings and PEP-8
+# =====================
+
+# A docstring is a description written inside triple quotes """ """ at the-
+# start of a function or class to explain what it does.
+
+
+
+
+def add(a, b):
+    """This function adds two numbers and returns the result."""
+    return a + b
+
+help(add)   # Output: add(a, b)
+    # This function adds two numbers and returns the result.
+
+print(add(4,6))
