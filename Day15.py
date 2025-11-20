@@ -162,14 +162,14 @@ print(countries)
 
 
 
-countriess = ("Pakistan", "Afganistan", "Bangladesh", "ShriLanka")
+# countriess = ("Pakistan", "Afganistan", "Bangladesh", "ShriLanka")
 
-countries2 = ("Vietnam", "India", "China")
+# countries2 = ("Vietnam", "India", "China")
 
-southAsia = countriess + countries2
+# southAsia = countriess + countries2
 
-print(southAsia)
-print(len(southAsia))
+# print(southAsia)
+# print(len(southAsia))
 
 
 
@@ -191,20 +191,21 @@ questions = ["Who is known as the “Missile Man of India”?", "Which is the la
 
 answers = ["Dr. A.P.J. Abdul Kalam", "Jupiter", "Yen", "Rabindranath Tagore", "Kaveri River"]
 i = 0
+price = 0
+
+length = len(questions)
+print(length)
+print("Leta Start the Game!!!")
 
 while True :
-    print("Leta Start the Game!!!")
-    print(questions[i])
-
-    ans = input("Enter the correct answer")
-
-    if (ans == answers[i]) :
-        print("Right Answer")
-        i = i + 1
-        print(questions[i])
-        ans = input("Enter the correct answer")
-    else : 
-        print("Wrong Answers!!!")
+    if (i >= len(questions)) :
+        print("Total Price Amount Won : ", price)
+        print("Game Over")
         break
-
-    
+    else : 
+        print(questions[i])
+        ans = input("Enter the correct answer : ")
+        if(ans == answers[i]) : 
+            price = price + 10000
+            print("Correct Answer", "Price Won : ", price)
+            i = i + 1

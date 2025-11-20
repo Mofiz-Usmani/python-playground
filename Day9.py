@@ -331,6 +331,12 @@ print(f"Hello {name}")  # Hello Eddie
 # format() method
 print("Hello {}".format(name))  # Hello Eddie
 
+letter = "Hey my name is {} and I am form {}"
+country = "India"
+name = "Jackal"
+
+print(letter.format(country, name))
+
 
 # Old-style formatting
 print("Hello %s" % name)  # Hello Eddie
