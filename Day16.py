@@ -10,13 +10,30 @@
 
 
 
-
-def factorial(num) :
-    if (num == 1 or num == 0) :
+# Factorial of a number: 
+def factorial(n):
+    # Base case: if n is 0 or 1, return 1
+    if n == 0 or n == 1:
         return 1
-    else : 
-        return (num * factorial(num - 1))
+    # Recursive case: multiply n with factorial of (n-1)
+    else:
+        return n * factorial(n-1)
+
+print(factorial(5))  # Output: 120
 
 
-num = 5
-print("Factorial: ",factorial(num))
+
+
+
+
+
+
+# Sum of first n natural numbers: 
+def sum_natural(num):
+    if num == 0:
+        return 0
+    else:
+        return num + sum_natural(num-1)
+
+print(sum_natural(5))
+
