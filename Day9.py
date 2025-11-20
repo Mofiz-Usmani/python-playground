@@ -340,6 +340,13 @@ name = "Jackal"
 print(f"Hello my name is {name} and I am form {country}")  #Better way
 
 
+
+
+
+price = 49.0999
+txt = f"For only {price:. 2f} dollars!"
+print(txt)
+
 # Old-style formatting
 print("Hello %s" % name)  # Hello Eddie
 
