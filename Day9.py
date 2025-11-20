@@ -409,6 +409,10 @@ print("Hi" * 3)  # HiHiHi
 # A docstring is a description written inside triple quotes """ """ at the-
 # start of a function or class to explain what it does.
 
+# Written inside triple quotes.
+# Must be at the top inside the function/class.
+# Used for documentation.
+
 
 
 
@@ -435,3 +439,109 @@ def square(n):
 
 square(5)
 print(square.__doc__)  #Takes in a number n, returns the square of n
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# PEP-8 (Python Enhancement Proposal 8)
+
+# PEP 8 is a set of rules that tell you how to write clean, readable, and professional Python code.
+# Think of it like grammar rules for Python coding.
+
+
+# 🔥 What PEP 8 includes?
+
+# It gives rules for things like:
+
+# ✔ Naming
+
+# variables_like_this
+
+# functions_like_this()
+
+# ClassesLikeThis
+
+# ✔ Indentation
+
+# Use 4 spaces for each indent.
+
+# ✔ Line length
+
+# Keep lines ≤ 79 characters.
+
+# ✔ Spaces
+
+# Add spaces around operators:
+
+# a = 5 + 3
+
+# ✔ Comments
+
+# Use meaningful comments.
+
+# Use docstrings for functions.
+
+# ✔ Blank lines
+
+# Add blank lines between functions to improve readability.
+
+# 👍 Why is PEP 8 important?
+
+# Because it:
+
+# Makes your code clean
+
+# Easy for others to read
+
+# Looks professional
+
+# Followed by almost all Python developers
+
+
+
+
+
+
+# The Zen of Python
+
+# The Zen of Python is a collection of guiding principles for writing Python code.
+# It’s like Python’s philosophy on how code should look and behave—simple, readable, and elegant.
+
+# On cmd type python then write import this 
+
+# >>> import this
+# The Zen of Python, by Tim Peters
+
+# Beautiful is better than ugly.
+# Explicit is better than implicit.
+# Simple is better than complex.
+# Complex is better than complicated.
+# Flat is better than nested.
+# Sparse is better than dense.
+# Readability counts.
+# Special cases aren't special enough to break the rules.
+# Although practicality beats purity.
+# Errors should never pass silently.
+# Unless explicitly silenced.
+# In the face of ambiguity, refuse the temptation to guess.
+# There should be one-- and preferably only one --obvious way to do it.
+# Although that way may not be obvious at first unless you're Dutch.
+# Now is better than never.
+# Although never is often better than *right* now.
+# If the implementation is hard to explain, it's a bad idea.
+# If the implementation is easy to explain, it may be a good idea.
+# Namespaces are one honking great idea -- let's do more of those!
+# >>>
