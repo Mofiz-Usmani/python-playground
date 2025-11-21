@@ -81,3 +81,20 @@ print(type(fs))     #<class 'frozenset'>
 
 # fs.add(5)     # ❌ Error
 # fs.remove(2)  # ❌ Error
+
+
+
+
+
+
+
+
+
+
+s = {}
+print(type(s))   # <class 'dict'>  → NOT a set!
+
+p = set()
+print(type(p))   # <class 'set'>
+p.add(1)
+print(p)         # {1}
