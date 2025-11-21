@@ -98,3 +98,23 @@ p = set()
 print(type(p))   # <class 'set'>
 p.add(1)
 print(p)         # {1}
+
+
+
+
+
+
+
+
+
+# ================
+# Sets Methods
+# ================
+
+
+# add() - Adds an item to the set (chages done in the original set)
+
+s = {1, 2}
+s.add(3)
+print(s)   # {1, 2, 3}
+
