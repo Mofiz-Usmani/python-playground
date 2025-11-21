@@ -1,0 +1,18 @@
+# ================
+# Set in Python
+# ================
+
+
+# A set is a collection of items where:
+
+# No duplicates allowed
+# Order is not fixed (items can appear in any order)
+# You can add or remove items
+# Uses { } curly braces
+
+# Think of a set like a bag of unique items. If you try to add the same item again, Python ignores it.
+
+
+my_set = {1, 2, 3, 4}
+print(my_set)
+print(type(my_set))
