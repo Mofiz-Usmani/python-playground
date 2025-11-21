@@ -155,3 +155,9 @@ print(s)       # {1, 3}
 
 
 
+# pop() - Removes a random item (because sets have no order).
+
+s = {1, 2, 3}
+item = s.pop()
+print(item)  # could be 1, 2, or 3
+print(s)  
