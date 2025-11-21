@@ -16,3 +16,12 @@
 my_set = {1, 2, 3, 4}
 print(my_set)
 print(type(my_set))
+
+
+
+
+
+# If you add duplicates: Python removes the duplicate 2.
+s = {1, 2, 2, 3}
+print(s)   # output: {1, 2, 3}
+
