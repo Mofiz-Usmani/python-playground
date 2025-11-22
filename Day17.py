@@ -258,3 +258,28 @@ a.symmetric_difference_update(b)
 
 print(a)   # {1, 2, 4}
 print(b)   # still {3, 4}
+
+
+
+
+
+
+
+
+
+
+# isdisjoint() Method
+
+
+# ✔ What it checks?
+# It checks whether two sets have NO common elements.
+
+# ✔ Returns:
+
+# True → if both sets do NOT share any element
+# False → if they share at least one element
+
+a = {1, 2, 3}
+b = {4, 5, 6}
+
+print(a.isdisjoint(b))   # True (no common elements)
