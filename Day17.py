@@ -184,6 +184,18 @@ print(g)
 
 
 
+# del - Deletes the entire set
+
+s = {1, 2, 3}
+del s
+# print(s)   # ❌ Error: s is deleted
+
+
+
+
+
+
+
 
 
 
