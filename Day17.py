@@ -309,3 +309,30 @@ b = {2, 3}
 
 print(a.issuperset(b))   # True (a contains all elements of b)
 print(b.issuperset(a))   # False (b does not contain all elements of a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# isSubset() Method
+
+# ✔ What it checks?
+# It checks whether all elements of a set are present in another set.
+
+# ✔ Returns:
+# True → if the set is a subset
+# False → if it is NOT a subset
+
+a = {1, 2}
+b = {1, 2, 3, 4, 5}
+print(a.issubset(b))   # True (all elements of a are in b)
+print(b.issubset(a))   # False (not all elements of b are in a)
