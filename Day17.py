@@ -140,6 +140,12 @@ s.update([3, 4, 5])
 print(s)   # {1, 2, 3, 4, 5}
 
 
+h = {1, 2, 5, 6}
+h2 = {3, 6, 7}
+h.update(h2)
+print(h)   # {1, 2, 3, 5, 6, 7}
+
+
 
 
 
@@ -214,3 +220,41 @@ a = {1, 2, 3}
 b = {3, 4}
 print(a - b)     # {1, 2}
 print(a.difference(b))  # {1, 2}
+
+
+
+
+
+
+
+
+
+# symmetric_difference()
+
+# This returns a NEW set with items that are NOT common in both sets.
+# It does NOT change the original set.
+
+a = {1, 2, 3}
+b = {3, 4}
+
+print(a.symmetric_difference(b))   # {1, 2, 4}
+print(a)   # still {1, 2, 3}
+print(b)   # still {3, 4}
+
+
+
+
+
+
+# symmetric_difference_update()
+
+# This updates the original set.
+# It changes a itself and keeps only NOT common items.
+
+a = {1, 2, 3}
+b = {3, 4}
+
+a.symmetric_difference_update(b)
+
+print(a)   # {1, 2, 4}
+print(b)   # still {3, 4}
