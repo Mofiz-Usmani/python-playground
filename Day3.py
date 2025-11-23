@@ -9,7 +9,7 @@ print(8 / 4)      # Division → 2.0
 # ==========================
 print("Hello World\nWelcome to Python Programming!")  # \n → New line
 print("Python\t\tProgramming")                        # \t → Tab space
-print("Python\"Programming\"")                        # \" → Double quote
+print("Python\"Programming\"")                        # \" → Double quote (\" \")
 print('Python\'Programming\'')                        # \' → Single quote
 print("C:\\Users\\Admin")                             # \\ → Backslash
 

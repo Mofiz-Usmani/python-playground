@@ -19,7 +19,8 @@ print(c)
 print(type(c)) #Output: <class 'str'>
 
 
-d = True
+# Boolean type (immutable)
+d = True   
 print(d)
 print(type(d)) #Output: <class 'bool'>
 
@@ -56,6 +57,45 @@ print(type(i)) #Output: <class 'NoneType'>
 j = complex(2, 3)
 print(j)
 print(type(j)) #Output: <class 'complex'>
+
+
+
+
+
+
+
+# 1️⃣ Mutable Data Types
+
+# Can be changed after creation (you can modify, add, or remove elements).
+
+# Examples:
+
+# list → [1, 2, 3] → you can do list.append(4) or list[0] = 10
+
+# dict → {"a":1} → you can do dict["b"] = 2
+
+# set → {1, 2, 3} → you can do set.add(4)
+
+# 2️⃣ Immutable Data Types
+
+# Cannot be changed after creation (any modification creates a new object).
+
+# Examples:
+
+# int → x = 5 → x + 1 creates a new integer; original x stays 5
+
+# float → y = 3.14 → cannot change value in-place
+
+# str → "hello" → "hello"[0] = "H" is not allowed
+
+# tuple → (1, 2, 3) → cannot change elements
+
+# frozenset → immutable version of a set
+
+
+
+
+
 
 
 # ==========================
