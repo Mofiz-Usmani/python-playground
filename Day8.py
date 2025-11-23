@@ -113,6 +113,9 @@ print(keyword.kwlist)
 # Take two numbers as input from the user and print their sum, difference,
 # product, and quotient.
 
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+
 a = input("Enter first number: ")
 b = input("Enter second number: ")
 
@@ -120,3 +123,21 @@ print("Sum is : ", int(a) + int(b))
 print("Differnce is : ", int(a) - int(b))
 print("Product is : ", int(a) * int(b))
 print("Quotient is : ", int(a) / int(b))
+
+
+
+
+
+
+
+
+
+# Ask the user to enter two integers and one float. Convert them all to floats
+# and print their average.
+
+a = int(input("Enter the first value: "))
+b = int(input("Enter the second value: "))
+c = float(input("Enter the third value: "))
+
+average = (a + b + c)/3
+print(average, type(average))
