@@ -115,3 +115,13 @@ print(student)
 
 student["city"] = "Mumbai"
 print(student)
+
+
+
+
+
+
+# popitem() - Removes the last inserted key–value pair.
+
+student.popitem()
+print(student)
