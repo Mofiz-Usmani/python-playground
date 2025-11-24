@@ -88,3 +88,11 @@ print(student.items())
 # get(key) - Safely get a value without error.
 
 print(student.get("name"))
+
+
+
+
+# update() - Add or update values.
+
+student.update({"age": 21})
+print(student.get("age"))
