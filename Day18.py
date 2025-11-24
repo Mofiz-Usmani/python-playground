@@ -106,3 +106,12 @@ print(student.get("age"))
 
 print(student.pop("course")) 
 print(student)
+
+
+
+
+
+# Add new key:
+
+student["city"] = "Mumbai"
+print(student)
