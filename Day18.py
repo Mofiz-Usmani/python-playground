@@ -96,3 +96,13 @@ print(student.get("name"))
 
 student.update({"age": 21})
 print(student.get("age"))
+
+
+
+
+
+
+# pop(key) - Remove a key and return its value.
+
+print(student.pop("course")) 
+print(student)
