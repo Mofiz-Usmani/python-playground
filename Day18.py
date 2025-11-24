@@ -81,3 +81,10 @@ print(student.values())
 # items() - Returns key–value pairs as tuples.
 
 print(student.items())
+
+
+
+
+# get(key) - Safely get a value without error.
+
+print(student.get("name"))
