@@ -8,7 +8,7 @@
 
 name = "Jackal"
 print(name)
-print(type(name))   # <class 'str'
+print(type(name))   # <class 'str'>
 
 
 

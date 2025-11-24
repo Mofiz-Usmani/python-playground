@@ -98,6 +98,12 @@ student.update({"age": 21})
 print(student.get("age"))
 
 
+emp1 = {12: 45, 13: 89, 14: 69}
+emp2 = {22: 67, 33: 90}
+emp1.update(emp2)
+print(emp1)
+print(emp2)
+
 
 
 

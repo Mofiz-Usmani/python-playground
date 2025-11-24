@@ -132,8 +132,8 @@ print("Quotient is : ", int(a) / int(b))
 
 
 
-# Ask the user to enter two integers and one float. Convert them all to floats
-# and print their average.
+#? Ask the user to enter two integers and one float. Convert them all to floats
+#? and print their average.
 
 a = float(input("Enter the first value: "))
 b = float(input("Enter the second value: "))
@@ -148,7 +148,7 @@ print(average, type(average))
 
 
 
-# Evaluate and print the result of the following expression:
+#? Evaluate and print the result of the following expression:
 
 x = 10 + 3 * 2 ** 2
 print(x)
@@ -163,7 +163,7 @@ print(x)
 
 
 
-# Write a program to swap values of two numbers entered by the user.
+#? Write a program to swap values of two numbers entered by the user.
 
 a = int(input("Enter number a : "))
 b = int(input("Enter number b : "))
@@ -195,10 +195,9 @@ print("After Swap b : ",b)
 
 
 
-#  Ask the user for a temperature in Celsius (string input). Convert it to ,
-# then calculate and print temperature in Fahrenheit.
-# Conversion formula: FahrenheitTemp = (CelsiusTemp ∗ (9/5)) +
-# 32
+#? Ask the user for a temperature in Celsius (string input). Convert it to ,
+#? then calculate and print temperature in Fahrenheit.
+#? Conversion formula: FahrenheitTemp = (CelsiusTemp ∗ (9/5)) + 32
 
 
 celsius = input("Enter a temperature in Celsius : ")
@@ -218,11 +217,9 @@ print("Temperature in Fahrenheit : ",fahrenheitTemp)
 
 
 
-# Take a decimal number as input (like ) and output its:
-# • integer part -
-# • fractional part -
-# 45
-# .78
+#? Take a decimal number as input (like ) and output its:
+#? • integer part - 45
+#? • fractional part - .78
 
 
 
