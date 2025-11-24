@@ -157,3 +157,12 @@ print(new_dict)
 
 a = dict.fromkeys(["a", "b", "c"], 0)
 print(a)
+
+
+
+# Change value:
+
+a["a"] = 1
+a["b"] = 2
+a["c"] = 3
+print(a)
