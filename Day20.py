@@ -33,3 +33,20 @@ except ZeroDivisionError:
     print("Cannot divide by zero")
 except ValueError:
     print("Invalid input, enter a number")
+
+
+
+
+
+
+
+
+# Catching All Exceptions: 
+
+# Exception catches any exception.
+# e stores the exception message.
+
+try:
+    x = int("abc")
+except Exception as e:
+    print("Error:", e)
