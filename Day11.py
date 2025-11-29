@@ -77,3 +77,97 @@ for i in range(0, 10, 2):     #Count 0 to 9 with step 2
 # Count backwards using negative step
 for i in range(10, 0, -1):
     print(i, end=" ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# =============
+# Questions
+# =============
+
+
+
+#? Sum of all even numbers and sum of all odd numbers in a list
+#? List → [1, 2, 3, 4, 5, 6]
+
+nums = [1, 2, 3, 4, 5, 6]
+
+odd = 0
+even = 0
+
+for i in range(0, len(nums)):
+    if(nums[i]%2 == 0):
+        even += nums[i]
+    else:
+        odd += nums[i]
+    
+print(f"Even = {even}")
+print(f"Odd = {odd}")
+    
+# OR
+
+nums = [1, 2, 3, 4, 5, 6]
+
+even = sum(x for x in nums if x % 2 == 0)
+odd = sum(x for x in nums if x % 2 != 0)
+
+print(f"Even = {even}")
+print(f"Odd = {odd}")
+
+
+
+
+
+
+
+
+
+
+#? Count how many vowels are in a string
+#? Input: "hello world" → Output: 3
+
+
+str = "hello world"
+count = 0
+
+
+for i in range(len(str)):
+    if str[i] == 'o':
+        count += 1
+    elif str[i] == 'e':
+        count += 1
+    elif str[i] == 'i':
+        count += 1
+    elif str[i] == 'a':
+        count += 1
+    elif str[i] == 'u':
+        count += 1
+
+print(count)
+        
+
+
+# OR
+
+
+s = "hello world"
+count = 0
+
+for i in range(len(s)):
+    if s[i] == 'a' or s[i] == 'e' or s[i] == 'i' or s[i] == 'o' or s[i] == 'u':
+        count += 1
+
+print(count)
