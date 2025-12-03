@@ -148,7 +148,7 @@ rev = 0
 while n > 0:
     rev = rev * 10 + n % 10
     n //= 10
-    
+
 if temp == rev:
     print("Palindrome")
 else:
@@ -157,6 +157,28 @@ else:
 
 
 
+
+#? Find the factorial without using for loop
+
+n = int(input("Enter the number = "))
+
+fact = 1
+count = 1
+
+while(count <= n):
+    fact = fact * count
+    count += 1
+    
+print(fact)
+
+# OR
+
+n = int(input("Enter a number: "))
+fact = 1
+while n > 0:
+    fact *= n
+    n -= 1
+print("Factorial =", fact)
 
 
 # =============================
