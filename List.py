@@ -83,9 +83,9 @@ print("Jump Index: ", numbers[0:5:2])   #skip one value
 
 
 
-# =====================
+# ====================
 # List Comprehension
-# =====================
+# ====================
 
 # A compact way to create lists.
 
