@@ -12,3 +12,6 @@
 #   remove 3 random characters from start and end. Now remove the last letter and append it to the beginning
 
 # Your program should ask whether you want to code or decode
+
+
+message = ""
