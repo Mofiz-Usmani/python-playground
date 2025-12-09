@@ -27,3 +27,19 @@ age = 20
 
 status = "Adult" if age >= 18 else "Minor"
 print(status)
+
+
+
+
+
+
+
+
+
+
+
+# Nested Ternary (If-Else Ladder)
+marks = 82
+
+grade = "A" if marks >= 90 else "B" if marks >= 75 else "C"
+print(grade)
