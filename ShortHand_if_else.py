@@ -79,3 +79,19 @@ n = 5
 
 message = "Even" if n % 2 == 0 else "Odd"
 print(message)
+
+
+
+
+
+
+
+
+
+
+
+
+# Quick Check in One Line
+num = -4
+
+print("positive") if num > 0 else print("negative")
