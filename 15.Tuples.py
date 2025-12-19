@@ -161,15 +161,23 @@ print(countries)   #('Spain', 'Italy', 'Finland', 'Germany', 'Russia')
 
 
 
+# + does NOT modify tuples, it creates a new tuple
+# Tuple of South Asian countries
+countriess = ("Pakistan", "Afganistan", "Bangladesh", "ShriLanka")
 
-# countriess = ("Pakistan", "Afganistan", "Bangladesh", "ShriLanka")
+# Tuple of some Asian countries
+countries2 = ("Vietnam", "India", "China")
 
-# countries2 = ("Vietnam", "India", "China")
+# Creating a NEW tuple by combining two tuples
+# Original tuples are NOT changed (tuples are immutable)
+southAsia = countriess + countries2
 
-# southAsia = countriess + countries2
+# Print the new combined tuple
+print(southAsia)
 
-# print(southAsia)
-# print(len(southAsia))
+# Print total number of elements in the new tuple
+print(len(southAsia))
+
 
 
 
