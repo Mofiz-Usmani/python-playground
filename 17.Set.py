@@ -91,13 +91,18 @@ print(type(fs))     #<class 'frozenset'>
 
 
 
-s = {}
-print(type(s))   # <class 'dict'>  → NOT a set!
+s = {}              # Empty curly braces create an empty DICTIONARY, not a set
+print(type(s))      # <class 'dict'>
 
-p = set()
-print(type(p))   # <class 'set'>
-p.add(1)
-print(p)         # {1}
+p = set()           # Correct way to create an empty set
+print(type(p))      # <class 'set'>
+
+p.add(1)            # Adds element 1 to the set
+print(p)            # {1}
+
+
+# {} → dictionary
+# set() → empty set
 
 
 
