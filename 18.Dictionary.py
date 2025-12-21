@@ -139,15 +139,15 @@ print(student)
 
 # clear() - Removes all items.
 
-# student.clear()
-# print(student)
+student.clear()
+print(student)
 
 
 
 
 
 
-#* del - 
+# del
 # del is not a method, it is a keyword used to delete:
 
 # a key-value pair
@@ -248,8 +248,8 @@ for k, v in student.items():
 #? 4. D - Display all students and marks
 
 
-# Given a list of words:
-# words = ["apple", "banana", "kiwi", "cherry", "mango"]
-# Create a dictionary that maps each word to its length.
-# Example:
-# {"apple": 5, "banana": 6, "kiwi": 4, ...}
+#? Given a list of words:
+#? words = ["apple", "banana", "kiwi", "cherry", "mango"]
+#? Create a dictionary that maps each word to its length.
+#? Example:
+#? {"apple": 5, "banana": 6, "kiwi": 4, ...}
