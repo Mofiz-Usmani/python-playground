@@ -304,13 +304,26 @@ print(new_lis)   # [1, 2, 3, 99]
 # Questions
 # ============
 
-
+#? Q1:
 #? Given a list of integers compute the average of all numbers in the list.
 
+#? Q2:
 #? Input two lists of integers from the user. Merge them into one list and sort the
 #? result.
 #? Eg - list1 = [1, 2, 7] , list2 = [2, 4, 5]
 #? result = [1, 2, 2, 4, 5, 7]
 
-
+#? Q4:
 #? Given a list, print all elements that appear more than once in the list.
+
+
+#? Q5:
+#? Reverse a list without using reverse() or slicing.
+
+
+#? Q6:
+#? Check whether a list is sorted or not.
+
+
+#? Q7:
+#? Merge two lists and sort the result without using sort().
