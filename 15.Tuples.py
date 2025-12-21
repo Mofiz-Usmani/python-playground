@@ -233,8 +233,24 @@ while True :
 # ============
 
 
-
+#? Q1:
 #? Given a tuple of integers, create:
 #? • A tuple of all even numbers
 #? • A tuple of all odd numbers
+
+
+#? Q2:
+#? Find the length of a tuple without using len().
+
+
+#? Q3:
+# Find all pairs in a tuple whose sum is equal to a given number.
+
+
+#? Q4:
+#? Check whether all elements in a tuple are unique.
+
+
+#? Q5:
+#? Merge two tuples and remove duplicates.
 
