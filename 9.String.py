@@ -566,11 +566,25 @@ print(square.__doc__)  #Takes in a number n, returns the square of n
 # Questions
 # ============
 
-
+#? Q1:
 #? Write a program that takes a string from the user and prints the number of
 #? spaces in the string.
 
 
+#? Q2:
 #? Ask the user for a string and print:
 #? • All unique characters
 #? • The count of unique characters
+
+
+#? Q3:
+#? Write a program to check whether a string is a palindrome.
+
+
+#? Q4: 
+#? Write a program to reverse words in a sentence.
+#? Example: "I love Python" → "Python love I"
+
+
+#? Q5:
+#? Using Python, remove all spaces from a string without using replace().
