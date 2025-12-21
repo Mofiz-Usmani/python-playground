@@ -117,7 +117,7 @@ print(p)            # {1}
 # ================
 
 
-# add() - Adds an item to the set (chages done in the original set)
+# add() - Adds an item to the set (changes done in the original set)
 
 s = {1, 2}
 s.add(3)
